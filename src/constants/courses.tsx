@@ -1,4 +1,4 @@
-import { ChevronLeft, Globe2, BriefcaseBusiness, Rocket } from "lucide-react";
+import { Globe2, BriefcaseBusiness, Rocket } from "lucide-react";
 
 export const CHINESE_COURSE = {
   COMMUNICATION: {

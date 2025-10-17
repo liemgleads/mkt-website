@@ -1,3 +1,4 @@
+import { Banner } from "@/components/Banner";
 import { ContactForm } from "@/components/ContactForm";
 import { Button } from "antd";
 import { useMessages, useTranslations } from "next-intl";
@@ -184,72 +185,72 @@ function CoursesSection() {
   );
 }
 
-export function Banner({
-  title,
-  desc,
-  imgSrc,
-  reverse = false,
-  bgSrc = "",
-}: {
-  title: string;
-  desc: string;
-  imgSrc: string;
-  bgSrc?: string;
-  reverse?: boolean;
-}) {
-  const t = useTranslations();
-  return (
-    <section
-      className={`relative w-full bg-white py-[40px] lg:py-[80px] px-4 `}
-      style={
-        bgSrc
-          ? {
-              backgroundImage: `url(${bgSrc})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              backgroundPositionY: "center"
-            }
-          : {}
-      }
-    >
-      <div className={`absolute w-full h-full top-0 left-0 ${bgSrc ? "opacity-20 bg-black" : ""}`}></div>
-      <div className="mx-auto xl:max-w-[1000px]">
-        <div
-          className={`w-full flex gap-2 ${
-            reverse ? "flex-row-reverse" : ""
-          } justify-between items-center my-[10px]`}
-        >
-          <div className="flex flex-col gap-8 w-[490px] z-3">
-            <div className={`font-black text-[36px] ${bgSrc ? "text-white" : ""}`}>{t(title)}</div>
-            <div className="font-medium text-[20px]">{t(desc)}</div>
-            <div className="flex gap-4">
-              <Button className=" !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]" size="large">
-                {t("Hero.joinNow")}
-              </Button>
-              <Button
-                size="large"
-                className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000]"
-              >
-                {t("Hero.register")}
-              </Button>
-            </div>
-          </div>
-          <div
-            className={`w-[540px] hidden sm:block ${bgSrc ? "opacity-0" : ""}`}
-          >
-            <Image
-              src={imgSrc}
-              alt="banner-image"
-              width={649}
-              height={450}
-              className="mx-auto rounded-3xl"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+// export function Banner({
+//   title,
+//   desc,
+//   imgSrc,
+//   reverse = false,
+//   bgSrc = "",
+// }: {
+//   title: any;
+//   desc: any;
+//   imgSrc: any;
+//   bgSrc?: any;
+//   reverse?: any;
+// }) {
+//   const t = useTranslations();
+//   return (
+//     <section
+//       className={`relative w-full bg-white py-[40px] lg:py-[80px] px-4 `}
+//       style={
+//         bgSrc
+//           ? {
+//               backgroundImage: `url(${bgSrc})`,
+//               backgroundRepeat: "no-repeat",
+//               backgroundSize: "cover",
+//               backgroundPositionY: "center"
+//             }
+//           : {}
+//       }
+//     >
+//       <div className={`absolute w-full h-full top-0 left-0 ${bgSrc ? "opacity-20 bg-black" : ""}`}></div>
+//       <div className="mx-auto xl:max-w-[1000px]">
+//         <div
+//           className={`w-full flex gap-2 ${
+//             reverse ? "flex-row-reverse" : ""
+//           } justify-between items-center my-[10px]`}
+//         >
+//           <div className="flex flex-col gap-8 w-[490px] z-3">
+//             <div className={`font-black text-[36px] ${bgSrc ? "text-white" : ""}`}>{t(title)}</div>
+//             <div className="font-medium text-[20px]">{t(desc)}</div>
+//             <div className="flex gap-4">
+//               <Button className=" !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]" size="large">
+//                 {t("Hero.joinNow")}
+//               </Button>
+//               <Button
+//                 size="large"
+//                 className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000]"
+//               >
+//                 {t("Hero.register")}
+//               </Button>
+//             </div>
+//           </div>
+//           <div
+//             className={`w-[540px] hidden sm:block ${bgSrc ? "opacity-0" : ""}`}
+//           >
+//             <Image
+//               src={imgSrc}
+//               alt="banner-image"
+//               width={649}
+//               height={450}
+//               className="mx-auto rounded-3xl"
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 function HowWeTeach() {
   const t = useTranslations();

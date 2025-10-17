@@ -3,8 +3,9 @@ import { ContactForm } from "@/components/ContactForm";
 import HexagonNumber from "@/components/HexagonNumber";
 import { useMessages, useTranslations } from "next-intl";
 import Image from "next/image";
-import { Banner } from "../business/page";
+// import { Banner } from "../business/page";
 import { Button } from "antd";
+import { Banner } from "@/components/Banner";
 
 function OurUnique() {
   const messages = useMessages();
