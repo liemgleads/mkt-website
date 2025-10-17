@@ -24,6 +24,7 @@ function EnglishBusinessSection() {
   );
 }
 
+
 function Section2({ personSrc = "/assets/images/courses/english/business/Section2/Person.png" }) {
   const features = [
     { icon: <Globe2 className="h-7 w-7 sm:h-8 sm:w-8 text-black" />, title: "Mở Ra Cơ Hội Toàn Cầu", desc: "Hãy đưa tiếng Anh của bạn từ lớp học đến phòng họp. Khóa học Business English trang bị cho bạn kỹ năng giao tiếp tự tin trong các cuộc họp, thuyết trình, đàm phán và email công việc." },
