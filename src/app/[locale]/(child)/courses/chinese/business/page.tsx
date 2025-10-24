@@ -448,7 +448,7 @@ export default function ChineseBusinessCoursePage() {
       <Banner
         title={"Courses.chineseCourse.business.title"}
         desc={"Courses.chineseCourse.business.desc"}
-        imgSrc={"/assets/images/courses/chinese/business/Banner/banner.jpg"}
+        imgSrc={"/assets/images/courses/chinese/business/Banner/banner.png"}
       />
       <WhatYouWillGetSection />
       <MasterChineseBusiness />
