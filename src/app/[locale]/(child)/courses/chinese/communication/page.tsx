@@ -16,7 +16,7 @@ function OurUnique() {
   }[];
 
   return (
-    <section className="relative w-full bg-linear-to-b from-[#A40000] to-red-50 py-[40px] lg:py-[80px] px-4">
+    <section className="relative w-full bg-linear-to-b from-[#0A2E73] to-red-50 py-[40px] lg:py-[80px] px-4">
       <div className="mx-auto max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1246px]">
         <div
           className={`w-full flex flex-row justify-between items-center my-[10px]`}
@@ -84,8 +84,8 @@ function GuidedChineseLearning({
             {featuresData.map((f, i) => (
               <div key={i} className="flex flex-col sm:flex-row items-center">
                 <HexagonNumber number={i + 1} />
-                <div className="flex justify-center flex-col sm:h-32 gap-2 sm:gap-1 bg-white pl-6 sm:pl-20 sm:-ml-16 py-10 pt-16 sm:py-3 border-b-4 sm:border-b-0 sm:border-r-[12px] border-solid border-[#A40000] rounded-2xl sm:rounded-none sm:rounded-r-full shadow-lg pr-6 -mt-12 sm:mt-0">
-                  <p className="text-center sm:text-left text-lg font-extrabold text-[#A40000] uppercase">
+                <div className="flex justify-center flex-col sm:h-32 gap-2 sm:gap-1 bg-white pl-6 sm:pl-20 sm:-ml-16 py-10 pt-16 sm:py-3 border-b-4 sm:border-b-0 sm:border-r-[12px] border-solid border-[#0A2E73] rounded-2xl sm:rounded-none sm:rounded-r-full shadow-lg pr-6 -mt-12 sm:mt-0">
+                  <p className="text-center sm:text-left text-lg font-extrabold text-[#0A2E73] uppercase">
                     {f.title}
                   </p>
                   <p className="text-sm leading-6  sm:leading-5 text-gray-800">
@@ -129,7 +129,7 @@ const items: Course[] = [
 
 function CoursesSection() {
   return (
-    <section className="w-full bg-linear-to-br from-[#A40000] to-red-50 py-12 sm:py-14 md:py-16">
+    <section className="w-full bg-linear-to-br from-[#0A2E73] to-red-50 py-12 sm:py-14 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-8 sm:mb-10 md:mb-12">
           CÁC KHÓA HỌC CỦA ASPIRELY
@@ -141,7 +141,7 @@ function CoursesSection() {
               className="relative bg-[#F7F7F5] rounded-2xl md:rounded-[28px] shadow-lg overflow-hidden flex flex-col"
             >
               <div className="p-5 sm:p-6 md:p-7 flex-1 flex flex-col">
-                <h3 className="text-[#A40000] text-lg sm:text-xl md:text-2xl font-extrabold text-center leading-tight">
+                <h3 className="text-[#0A2E73] text-lg sm:text-xl md:text-2xl font-extrabold text-center leading-tight">
                   {c.title}
                 </h3>
                 <p className="mt-3 sm:mt-4 text-center text-sm sm:text-base md:text-lg leading-relaxed">
@@ -161,7 +161,7 @@ function CoursesSection() {
                 <div className="mt-4 sm:mt-5 md:mt-6 flex items-center">
                   <Button
                     size="large"
-                    className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000] mx-auto"
+                    className=" bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73] mx-auto"
                   >
                     {c.cta}
                   </Button>

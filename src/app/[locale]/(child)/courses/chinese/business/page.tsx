@@ -15,7 +15,7 @@ function WhatYouWillGetSection() {
   const dataStyle = [
     {
       bgColor: "bg-[#faf0f0]",
-      borderColor: "border-[#a40000]",
+      borderColor: "border-[#0A2E73]",
       image: {
         src: "/assets/images/courses/chinese/business/WhatYouWillGet/course-1.png",
         alt: "course-1",
@@ -139,7 +139,7 @@ const items: Course[] = [
 
 function CoursesSection() {
   return (
-    <section className="w-full bg-linear-to-br from-[#A40000] to-red-50 py-12 sm:py-14 md:py-16">
+    <section className="w-full bg-linear-to-br from-[#0A2E73] to-red-50 py-12 sm:py-14 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-8 sm:mb-10 md:mb-12">
           CÁC KHÓA HỌC CỦA ASPIRELY
@@ -151,7 +151,7 @@ function CoursesSection() {
               className="relative bg-[#F7F7F5] rounded-2xl md:rounded-[28px] shadow-lg overflow-hidden flex flex-col"
             >
               <div className="p-5 sm:p-6 md:p-7 flex-1 flex flex-col">
-                <h3 className="text-[#A40000] text-lg sm:text-xl md:text-2xl font-extrabold text-center leading-tight">
+                <h3 className="text-[#0A2E73] text-lg sm:text-xl md:text-2xl font-extrabold text-center leading-tight">
                   {c.title}
                 </h3>
                 <p className="mt-3 sm:mt-4 text-center text-sm sm:text-base md:text-lg leading-relaxed">
@@ -171,7 +171,7 @@ function CoursesSection() {
                 <div className="mt-4 sm:mt-5 md:mt-6 flex items-center">
                   <Button
                     size="large"
-                    className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000] mx-auto"
+                    className=" bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73] mx-auto"
                   >
                     {c.cta}
                   </Button>
@@ -224,12 +224,12 @@ function CoursesSection() {
 //             <div className={`font-black text-[36px] ${bgSrc ? "text-white" : ""}`}>{t(title)}</div>
 //             <div className="font-medium text-[20px]">{t(desc)}</div>
 //             <div className="flex gap-4">
-//               <Button className=" !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]" size="large">
+//               <Button className=" !bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]" size="large">
 //                 {t("Hero.joinNow")}
 //               </Button>
 //               <Button
 //                 size="large"
-//                 className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000]"
+//                 className=" bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]"
 //               >
 //                 {t("Hero.register")}
 //               </Button>
@@ -286,7 +286,7 @@ function HowWeTeach() {
                 className="text-center w-[90%]"
                 dangerouslySetInnerHTML={{ __html: f.title }}
               />
-              <Button className=" !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]" size="large">
+              <Button className=" !bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]" size="large">
                 {t("Hero.joinNow")}
               </Button>
             </div>
@@ -322,7 +322,7 @@ function MasterChineseBusiness() {
               } justify-between items-center my-[10px]`}
             >
               <div className="flex flex-col gap-2 sm:w-[490px]">
-                <div className="font-black text-[30px] text-[#A40000]">
+                <div className="font-black text-[30px] text-[#0A2E73]">
                   {f.title}
                 </div>
                 <div className="font-medium text-[20px]">{f.desc}</div>
@@ -352,7 +352,7 @@ function Achievements({}) {
   }[];
 
   return (
-    <section className="relative w-full bg-linear-to-br from-[#A40000] to-red-50 py-[40px] lg:py-[80px] ">
+    <section className="relative w-full bg-linear-to-br from-[#0A2E73] to-red-50 py-[40px] lg:py-[80px] ">
       <div className="mx-auto xl:max-w-[1000px] px-4">
         <h2 className="text-[40px] text-center font-bold mb-[40px] lg:mb-[60px] text-white">
           {t("Courses.chineseCourse.business.takeaway.title")}
@@ -397,12 +397,12 @@ function ForBusiness({
   return (
     <section className="relative w-full bg-white py-[40px] lg:py-[80px]">
       <div className="mx-auto max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1246px]">
-        <h2 className="text-[32px] md:text-[40px] text-center font-bold mb-2 lg:mb-8 text-[#A40000]">
+        <h2 className="text-[32px] md:text-[40px] text-center font-bold mb-2 lg:mb-8 text-[#0A2E73]">
           {t("Courses.chineseCourse.business.forCoporation.title")}
         </h2>
         <div className="flex-1 flex flex-col-reverse sm:flex-row justify-center items-center">
           <div>
-            <p className="text-center text-2xl font-bold mb-6 text-[#A40000]">
+            <p className="text-center text-2xl font-bold mb-6 text-[#0A2E73]">
               {t("Courses.chineseCourse.business.forCoporation.subtitle")}
             </p>
             <div className="flex flex-col gap-6 px-[15px] py-0">

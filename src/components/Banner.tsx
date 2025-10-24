@@ -58,14 +58,14 @@ export function Banner({
             <div className="font-medium text-[20px]">{t(desc)}</div>
             <div className="flex gap-4">
               <Button
-                className=" !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]"
+                className=" !bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]"
                 size="large"
               >
                 {t("Hero.joinNow")}
               </Button>
               <Button
                 size="large"
-                className=" bg-[#A40000] !text-white hover:!bg-white hover:!text-[#A40000] hover:!border-[#A40000]"
+                className=" bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]"
               >
                 {t("Hero.register")}
               </Button>

@@ -219,7 +219,7 @@ export const ContactForm = () => {
                 <Button
                   type="primary"
                   size="large"
-                  className="w-full sm:w-fit mt-[22px] !bg-[#2596be] !text-white hover:!bg-white hover:!text-[#2596be] hover:!border-[#2596be]"
+                  className="w-full sm:w-fit mt-[22px] !bg-[#0A2E73] !text-white hover:!bg-white hover:!text-[#0A2E73] hover:!border-[#0A2E73]"
                   onClick={handleSubmit}
                 >
                   {t("submit")}
